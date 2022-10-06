@@ -1,20 +1,33 @@
 {
   "name": "app-exp-001",
-  "version": "0.0.1",
-  "private": true,
+  "version": "0.1.0",
+  "description": "E-commerce about books or virtual kiok",
+  "main": "start_engine.js",
   "scripts": {
     "start": "nodemon ./bin/www"
   },
-  "engines": {
-    "node": ">= 11.0.0",
-    "npm": ">= 6.0.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ht24pix/app-express-001.git"
   },
   "dependencies": {
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "express": "~4.16.1",
-    "http-errors": "~1.6.3",
-    "morgan": "~1.9.1",
-    "pug": "2.0.0-beta11"
-  }
+    "body-parser": "~1.20.0",
+    "express" : "^4.18.0",
+    "pug": "^3.0.2",
+    "cookie-parser": "~1.4.6",
+    "morgan": "~1.10.0",
+    "serve-favicon": "~2.5.0",
+    "http-errors": "2.0.0"
+  },
+  "keywords": [
+    "ecommerce",
+    "virtualkiok",
+    "shoppingonline"
+  ],
+  "author": "Huu Tri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ht24pix/app-express-001/issues"
+  },
+  "homepage": "https://github.com/ht24pix/app-express-001#readme"
 }
